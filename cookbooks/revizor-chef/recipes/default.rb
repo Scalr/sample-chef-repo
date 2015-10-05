@@ -1,4 +1,4 @@
-file "/root/chef_solo_result" do
+file "/root/#{node['chef-solo']['result']}" do
     owner "root"
     group "root"
     mode "0755"
