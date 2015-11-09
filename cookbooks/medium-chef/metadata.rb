@@ -1,7 +1,6 @@
 name             'medium-chef'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Scalr Inc.'
+maintainer_email 'n.kalmikov@scalr.com'
 license          'All rights reserved'
-description      'Installs/Configures success'
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+description      'Cookbook for medium chef tests'
 version          '0.1.0'
