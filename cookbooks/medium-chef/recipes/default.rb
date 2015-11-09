@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-file "/tmp/success.txt" do
+file "/tmp/medium_chef.txt" do
   action  :create
   content  "Test run was successful"
 end
