@@ -5,8 +5,15 @@
 # Copyright 2015, YOUR_COMPANY_NAME
 #
 # All rights reserved - Do Not Redistribute
-#
-file "/tmp/medium_chef.txt" do
+
+
+if platform?('windows')
+  tmp_dir = '%TMP%'
+else
+  tmp_dir = '/tmp'
+end
+
+file "#{tmp_dir}/medium_chef.txt" do
   action  :create
   content  "Test run was successful"
 end
