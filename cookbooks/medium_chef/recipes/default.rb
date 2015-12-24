@@ -8,7 +8,7 @@
 
 
 if platform?('windows')
-  tmp_dir = '%TMP%'
+  tmp_dir = ENV['TMP']
 else
   tmp_dir = '/tmp'
 end
