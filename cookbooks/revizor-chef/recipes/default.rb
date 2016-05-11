@@ -1,4 +1,4 @@
-if {node['chef-solo']['result']}.include? 'fail'
+if node['chef-solo']['result'].include? 'fail'
     raise "Special test exception"
 file "/root/#{node['chef-solo']['result']}" do
     owner "root"
