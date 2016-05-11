@@ -1,3 +1,5 @@
+if {node['chef-solo']['result']}.include? 'fail'
+    raise "Special test exception"
 file "/root/#{node['chef-solo']['result']}" do
     owner "root"
     group "root"
