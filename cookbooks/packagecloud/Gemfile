@@ -6,7 +6,7 @@ gem 'kitchen-ec2'
 
 group :test do
   gem 'foodcritic', '~> 4.0.0'
-  gem 'rubocop', '~> 0.24.1'
+  gem 'rubocop', '~> 0.49.0'
 end
 
 group :integration do
