@@ -15,5 +15,5 @@ end
 
 file "#{tmp_dir}/medium_chef.txt" do
   action  :create
-  content  "Test run was successful"
+  content  "Test run from branch was successful"
 end
